@@ -367,7 +367,7 @@
           if (event.isDefaultPrevented()) {
             // handle the invalid form...
             formError();
-            submitMSG(false, "please fill all the filed");
+            submitMSG(false, "please fill all the fields");
           } else {
             // everything looks good!
             event.preventDefault();
